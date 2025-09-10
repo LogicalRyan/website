@@ -4,9 +4,11 @@ function App() {
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-gray-950/60 bg-gray-950/80 border-b border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
           <a href="#" className="flex items-center gap-3">
-            <span className="inline-flex h-9 w-9 items-center justify-center rounded-md bg-brand-500/15 ring-1 ring-brand-400/20 text-brand-300 font-semibold">
-              LB
-            </span>
+            <img
+              src="/logicalbranch.png"
+              alt="LogicalBranch logo"
+              className="h-9 w-9 rounded-md ring-1 ring-brand-400/20 bg-white p-1 object-contain"
+            />
             <span className="text-lg font-semibold tracking-tight">
               LogicalBranch
             </span>
